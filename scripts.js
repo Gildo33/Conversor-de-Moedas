@@ -112,7 +112,7 @@ function changecurrency() {
     if(convertselect.value =="Libra") {
         currencyname.innerHTML = "Libra"
         //muda o texto do html
-        currencyimagem.src = "./assets/Libra1.png"
+        currencyimagem.src = "./assets/libra1.png"
            
     }
 
