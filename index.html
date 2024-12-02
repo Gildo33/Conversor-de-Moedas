@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+    <title>Projeto - convert money</title>
+</head>
+<body>
+    <img class="gif" src="./assets/logo.gif" alt="money">
+
+    <main>
+
+        <label>
+            coverter <b>de</b>
+            <select class="converter">
+            
+            <option>R$ Real Brasileiro</option>
+
+            <!-- 
+
+                <option value="Dolar EUA">Dolar</option>
+                <option value="Euro EUR">Euro </option>
+                <option value="Libra IN">Libra</option>
+                
+                
+            -->
+
+            </select>
+
+        </label>
+        
+        
+        <label>
+            coverter <b>para</b>
+            <select class="convert-select">
+                <option value="Dolar">US$ Dólar americano</option>
+                <option value="Euro">€ Euro</option>
+                <option value="Libra">Libra</option>
+                <option value="Biticoin">Biticoin</option>
+                <option value="Peso">Peso Argentino</option>
+            </select>
+        </label>
+
+        
+
+        <label>
+            valor
+            <input class="input-currency" placeholder="R$ 0.00">
+        </label>
+
+        <button class="Convert-Button">Converter</button>
+
+        <section>
+            <div class="currency-box">
+
+                <img  src="./assets/Real.png" alt="logo-moeda a converter">
+                <p class="real-dolar">Real</p>
+                <p class="Brasil-america">R$ 0.00</p>
+            </div>
+    <img class="arrow" src="./assets/Vector (1).png" alt="seta">
+
+            <div class="currency-box">
+
+                <img class="imagem"   src="./assets/Dolar.png" alt="logo-moeda a converter dolar">
+                <p class="real-dolar" id="americano">Dolar americano</p>
+                <p class="America-Brasil">US$ 0.00</p>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+<script src="./scripts.js"></script>
+</html>
