@@ -14,11 +14,11 @@ function convertvalues () {
 
     
 
-    const dolarToday = 5.66  //valor do dolar p/ ser convertido
-    const euroToday = 6.08 //valor do euro p/ ser convertido
-    const libraToday = 7.20 //valor da libra p/ ser convertido
-    const BiticoinToday = 372050.00 //valor da biticoin p/ ser convertido
-    const pesoToday = 0.0062 //valor do peso argentino p/ ser convertido
+    const dolarToday = 6.04  //valor do dolar p/ ser convertido
+    const euroToday = 6.36 //valor do euro p/ ser convertido
+    const libraToday = 7.72 //valor da libra p/ ser convertido
+    const BiticoinToday = 582431.00 //valor da biticoin p/ ser convertido
+    const pesoToday = 0.0059 //valor do peso argentino p/ ser convertido
 
 
     if(convertselect.value =="Dolar") //Se o select estiver selecionado o valor do dolar,entre aqui 
